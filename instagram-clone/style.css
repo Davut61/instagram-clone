@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(229, 229, 241);
+}
+
+.nav-sag{
+    display: flex;
+    align-items: center;
+}
+.nav-sag .icons{
+    margin-top: 10px;
+}
+
+#input-container{
+    position: relative;
+    
+}
+#input-container i{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+#input-container input{
+    padding-left: 30px;
+    border-radius: 10px;
+    opacity: 0.3;
+    width: 200px;
+    
+}
+
+.icons ul{
+    display: flex;
+    align-items: center;
+}
+.icons ul li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.icons ul li img{
+    width: 35px;
+    border-radius: 50%;
+}
+
+/* nav */
+
+.hikaye{
+    display: flex;
+    justify-content: space-around  !important;
+    
+   
+    border-radius: 10px;
+   
+}
+
+.hikaye a img{
+    border: 3px solid #E80F88;
+    margin-left: 3px;
+    border-radius: 50%;
+}
+
+.hikaye a p{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* card */
+
+.post-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.post-top-profile{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.post-top-profile p{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+.post-top img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #E80F88;
+    border-radius: 50%;
+}
+
+.etkileşim{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.etkileşim .save-btn{
+    align-self: flex-start;
+}
+
+.post-like ul{
+    display: flex;
+}
+
+.post-like ul li{
+    list-style-type: none;
+}
+
+.save-btn li{
+    list-style-type: none;
+}
+
+/* likes */
+.likes{
+    display: flex;
+    align-items: center;
+}
+.likes img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* comment */
+.comment{
+    font-size: 15px;
+}
+.comment-satırı p{
+    line-height: 1rem;
+}
+
+.yorum-yap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yorum-yap input{
+    border: none;
+    outline: none;
+}
+
+
+/* aside */
+
+.aside-photo{
+    display: flex;
+    align-items: end;
+}
+
+.aside-photo img{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #E80F88;
+}
+
+.aside-photo p strong{
+    font-size: 15px;
+
+
+}
+
+.aside-içerik{
+    padding: 0 !important;
+}
+
+.önerilenler{
+    display: flex;
+    justify-content: space-between;
+}
+
+.önerilenler p{
+    font-size: 15px;
+}
+
+.takip-öneri{
+    display: grid;
+    grid-template-rows: 5;
+    grid-template-columns: 3;
+}
+
+.takip-öneri img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.takip-öneri .önerilen-sayfa{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.önerilen-sayfa img{
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
